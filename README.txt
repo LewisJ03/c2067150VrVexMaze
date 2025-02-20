@@ -11,11 +11,7 @@ Run instructions:
 -go to file, open, select file .vrpython file
 
 Overview:
-This is a project in which a robot must travel through a maze in the fastest way possible. While doing this the robot must not miss any turnings which it may pass.
-To accomplish this I have designed a program which follows Dijkstra's algorithm comparing each path and following the shortest out of the possible options. This
-allows for me to treat each turning as a node and the distance(mm) in-between turnings can then be thought of as weights for these node. Doing this also allows
-for the maze to be mapped as it is traversed and if a node is visited twice it can be counted as untraversable and therefore any paths which may lead to dead ends
-can be cut off.
+This is a project in which a robot must travel through a maze in the fastest way possible. While doing this the robot must not miss any turnings which it may pass. To accomplish this I have designed a program which follows Dijkstra's algorithm comparing each path and following the shortest out of the possible options. This allows for me to treat each turning as a node and the distance(mm) in-between turnings can then be thought of as weights for these node. Doing this also allows for the maze to be mapped as it is traversed and if a node is visited twice it can be counted as untraversable and therefore any paths which may lead to dead ends can be cut off.
 
 
 What I have learnt:
